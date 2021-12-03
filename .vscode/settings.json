@@ -1,0 +1,20 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.minimap.maxColumn": 80,
+  "workbench.iconTheme": "vscode-icons",
+  "peacock.color": "#a06004",
+  "peacock.affectStatusBar": false,
+  "peacock.affectSashHover": false,
+  "peacock.affectActivityBar": false,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#a06004",
+    "titleBar.inactiveBackground": "#a0600499",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.darkenLightenPercentage": 1
+}
