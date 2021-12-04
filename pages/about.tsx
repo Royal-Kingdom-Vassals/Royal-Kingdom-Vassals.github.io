@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { text } from "node:stream/consumers";
 import "tailwindcss/tailwind.css";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <div className="flex h-screen place-content-center">
       <div className="bg-red-400 p-7 m-auto">About</div>
@@ -11,4 +11,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default About;
