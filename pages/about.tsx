@@ -8,7 +8,7 @@ const About: NextPage = () => {
     <div className="flex place-content-center opacity-80 bg-purple-400 p-2">
       <head><title>About | Royal Kingdom Vassals</title></head>
       <div className="p-5 font-semibold italic text-xl">
-        <a href=".">Icarus</a>
+        <a href="./">Icarus</a>
       </div>
       <div className="p-5 font-semibold italic text-xl">
         <a href="./ourStory">Our Story</a>
