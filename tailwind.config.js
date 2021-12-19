@@ -1,17 +1,22 @@
 module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      "icarus-navy": "#424874",
-      "icarus-lavender": "#DCD6F7",
-      "icarus-periwinkle": "#A6B1E1",
-      "icarus-gray": "#CACFD6",
-      "icarus-azure": "#D6E5E3",
+    extend: {
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        icarusNavy: "#424874",
+        icarusLavender: "#DCD6F7",
+        icarusPeriwinkle: "#A6B1E1",
+        icarusGray: "#CACFD6",
+        icarusAzure: "#D6E5E3",
+      },
     },
-    extend: {},
   },
   variants: {
     extend: {},

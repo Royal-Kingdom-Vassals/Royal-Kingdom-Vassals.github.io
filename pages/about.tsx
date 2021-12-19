@@ -11,22 +11,14 @@
  */
 
 import type { NextPage } from "next";
-import { text } from "node:stream/consumers";
+import { Navbar } from "../components";
 import "tailwindcss/tailwind.css";
 
 const About: NextPage = () => {
   return (
     //Navigation Bar with hyper links
-    <div className="flex place-content-center opacity-80 bg-purple-400 p-2">
-      <head>
-        <title>About | Royal Kingdom Vassals</title>
-      </head>
-      <div className="p-5 font-semibold italic text-xl">
-        <a href="./">Icarus</a>
-      </div>
-      <div className="p-5 font-semibold italic text-xl">
-        <a href="./ourStory">Our Story</a>
-      </div>
+    <div>
+      <Navbar />
     </div>
   );
 };
